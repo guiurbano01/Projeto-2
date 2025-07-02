@@ -54,20 +54,28 @@ label {
 input,
 select,
 textarea {
-  padding: 12px;
-  border-radius: 10px;
-  border: none;
+  background: white;
+  color: #222;
+  font-weight: 600;
   font-size: 1rem;
+  padding: 16px 20px;
+  border-radius: 15px;
+  border: none;
 }
 
 button {
   background-color: white;
   color: #4a35a3;
-  font-weight: bold;
-  font-size: 1rem;
-  border: none;
-  padding: 15px;
-  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 18px;
+  border-radius: 15px;
   cursor: pointer;
   width: 100%;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e1d4f1;
 }
